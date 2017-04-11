@@ -105,6 +105,7 @@ export function getCommonConfig(wco: WebpackConfigOptions) {
       module: false,
       clearImmediate: false,
       setImmediate: false
-    }
+    },
+    target: 'electron-renderer'
   };
 }
